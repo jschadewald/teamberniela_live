@@ -167,7 +167,19 @@ img {
 	border-bottom: 1px dashed #3880b8;
 	background: url('../images/bernieshocked.jpg') top left no-repeat;
 	background-size: 60px;
-	min-height: 65px;
+	min-height: 45px;
+}
+#eventstoday .no-events h3 {
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 18px;
+	margin: 0;
+}
+#eventstoday .no-events p {
+	font-size: 12px;
+	line-height: 16px;
+	font-style: italic;
+	margin: 0;
 }
 #eventstoday .no-events a {
 	float: right;
