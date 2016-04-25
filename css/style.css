@@ -165,9 +165,28 @@ img {
 	margin: 10px 0 15px 0;
 	padding: 15px 0 3px 65px;
 	border-bottom: 1px dashed #3880b8;
-	background: url('/images/bernieshocked.jpg') top left no-repeat;
+	background: url('../images/bernieshocked.jpg') top left no-repeat;
 	background-size: 60px;
 	min-height: 65px;
+}
+#eventstoday .no-events a {
+	float: right;
+	font-weight: bold;
+	font-size: 20px;
+	background-color: #e14443;
+	letter-spacing: 0.15em;
+	margin: 0.3em auto 0;
+	border-radius: 3px;
+	padding: 6px 8px 5px;
+	color: white;
+	display: inline-block;
+	-webkit-text-transform: uppercase;
+	text-transform: uppercase;
+	margin: 3px;
+	line-height: 1;
+}
+#eventstoday .no-events a:hover {
+	background-color: #ba1f1e;
 }
 #eventstoday a {
 	font-weight: bold;
