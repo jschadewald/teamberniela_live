@@ -212,6 +212,9 @@
 		min-height: 100px;
 		width: 100%;
 	}
+	#header.map {
+		position: fixed;
+	}
 	#header div {
 		margin: 0 auto;
 		max-width: none;
