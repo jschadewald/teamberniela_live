@@ -15,7 +15,8 @@
 		var today = new Date();
 		window.EVENT_DATA.results.forEach(function(event) {
 			if ($.inArray(parseInt(event.venue_zip), la_county_zip_codes) > -1) {
-				var eventStart = new Date(event.start_day + "PDT");
+				var parsedDate = event.start_day.split("-");
+				var eventStart = new Date(parsedDate[0], parsedDate[1] - 1, parsedDate[2]);
 				if(eventStart.getDate() == today.getDate() //day of month, actually
 					&& eventStart.getMonth() == today.getMonth()
 					&& eventStart.getFullYear() == today.getFullYear()) {
